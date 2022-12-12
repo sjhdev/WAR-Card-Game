@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: green;
+    font-family: "Exo 2", sans-serif;
+}
+
+#cards{
+    margin: 15px;
+}
+
+button{
+    border-style: none;
+    background-color: rgb(88, 161, 195);
+    padding: 5px 10px;
+    margin-top: 5px;
+    border: 2px solid black;
+    font-weight: 550;
+}
+
+.card-slot{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 120px;
+    width: calc(120px*5/7);
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+}
+
+h2{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+.scores{
+    color: yellow;
+}
